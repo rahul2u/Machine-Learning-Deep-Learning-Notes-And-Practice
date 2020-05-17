@@ -5,8 +5,10 @@ for index in range(0,len(tuple1)):
     print(tuple1[index],end =' ')
 
 
-for i in tuple1:
-    print(i)
+# for i in tuple1:
+#     print(i)
+for i in range(0,len(tuple1)):
+    print(tuple1[i])
 
 
 # delete is not possible or you can use silicing or convert to list
