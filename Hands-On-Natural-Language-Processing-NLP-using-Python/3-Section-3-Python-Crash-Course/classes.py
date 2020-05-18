@@ -17,6 +17,7 @@ fish.eat()
 
 # override the constructor
 
+
 class Game:
     def __init__(self,name):
         self.name =name
@@ -25,7 +26,7 @@ class Game:
         print(self.name,"game is started")
 
     def end(self):
-        print(self.name, "game is stoped")
+        print(self.name, "game is stooped")
 
 
 game = Game("Counter Strike")
