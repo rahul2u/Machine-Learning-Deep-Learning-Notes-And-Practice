@@ -26,6 +26,11 @@ if re.search("born$",sentence2):
 else:
     print("Not Match")
 
+if re.match("^1990", sentence2):
+    print("Match")
+else:
+    print("Not Match")
+
 
 
 
