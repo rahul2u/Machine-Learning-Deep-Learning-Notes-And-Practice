@@ -7,6 +7,11 @@
 # or
 #  Regular Expression is tool or module  or  programing language that is use to find patterns  inside your text.
 
+# various patterns
+# searching
+
+# re.match() = local search not global search (search first pattern not whole string or sentence)
+# re.match function use  searching the pattern
 
 sentence = "I was born in the year 1996" # remove the text 1960
 
