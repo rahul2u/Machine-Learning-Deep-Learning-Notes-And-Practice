@@ -2,6 +2,7 @@
 
 # re.match() = local search not global search (search first pattern not whole string or sentence)
 # re.match function use  searching the pattern
+# re.search() = global search
 
 import re
 
