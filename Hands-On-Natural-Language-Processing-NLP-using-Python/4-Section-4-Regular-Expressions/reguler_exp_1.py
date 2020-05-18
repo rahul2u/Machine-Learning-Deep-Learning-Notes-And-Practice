@@ -1,3 +1,8 @@
+# searching
+
+# re.match() = local search not global search (search first pattern not whole string or sentence)
+# re.match function use  searching the pattern
+
 import re
 
 sentence = "I am born in 1990"
