@@ -30,3 +30,23 @@ print(sentence2_modified)
 # remove space and replace
 sentence3_modified = re.sub(r"\s+love\s+", " hate ", sentence3)
 print(sentence3_modified)
+
+'''
+you have learned about the shorthand character 
+classes and also how to declare your own custom anonymous character 
+class using the square bracket ("[]" ) symbol. Now, the reason I wanted 
+to add this article is to let you know that we have made one mistake 
+while declaring the anonymous character class.
+
+In our example, we have used the character class "[@%#~+-\.\']"   . This 
+works but it has a problem. The problem is with the "-"  character. The "-"  
+character in regex has a special meaning. It means a range of characters. 
+So, in our example, "+-\."  means the range of characters from "+"  to "."  in terms
+of their ASCII value (the range from 43-46), not the three characters themselves.
+In our case this mistake doesn't result in an error and still works as the range 
+43-46 is a valid range. But, by mistake if you put here something like "+-#"  then
+it would result into an error as the ASCII range would 43-35 which is invalid.
+
+Therefore, the best thing to do whenever you want to just track "-"  is to escape it, i.e. "\-" .
+
+'''
