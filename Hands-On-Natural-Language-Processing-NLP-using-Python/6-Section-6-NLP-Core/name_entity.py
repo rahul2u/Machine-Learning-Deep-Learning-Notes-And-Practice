@@ -1,5 +1,5 @@
 import nltk
-
+# name entity provide the person,place things and other forms
 paragraph = "The Taj Mahal made by Emperor Shah Jahan"
 words = nltk.word_tokenize(paragraph)
 tagged_words = nltk.pos_tag(words)
