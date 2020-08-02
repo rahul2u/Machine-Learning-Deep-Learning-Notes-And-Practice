@@ -11,3 +11,9 @@ for token in doc:
     print(token)
     print(type(token.text))
     print(token.text)  # <class 'str'>
+
+
+# Doc object is iterable object
+# part of speech
+for token in doc:
+    print(f'{token.text:{15}} {token.pos_}')
