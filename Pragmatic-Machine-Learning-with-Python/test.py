@@ -1,4 +1,9 @@
-number = [1,2,3,4]
+import spacy
 
-for num in number:
-    print("Hello world")
+numbers = [1, 2, 3, 4]
+
+for number in numbers:
+    print(number)
+
+for number in numbers:
+    print(numbers)
