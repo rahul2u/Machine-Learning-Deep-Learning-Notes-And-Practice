@@ -1,0 +1,27 @@
+visual stdio shortcut 
+
+
+
+CTR +w - delete various open window and file in vs code
+
+================================================================
+
+various extention
+1- Microsoft python
+2- Code runner
+3- Theeme -Winter is comminng -set is blue
+
+=========================================
+Open VS code command terminal
+CTR + shift + P
+
+======================================
+setting you python version and linting and other virtualenv path and python path 
+go .vscode directory open setting.json file and set the path 
+
+or delete the path in "" and ctrl_shilt+p and select the interpreter click on that 
+path automatially select
+
+
+=============================
+shift +9 show the defenation of function 

@@ -10,8 +10,7 @@ img = cv2.imread(image_path)
 # image is numpy array
 print(img)
 
-# image properties
-print("Dimensions of Image ", img.ndim)
+bn  print("Dimensions of Image ", img.ndim)
 print("Image Shape", img.shape)
 height, width , channels = img.shape
 print(height, width, channels)
