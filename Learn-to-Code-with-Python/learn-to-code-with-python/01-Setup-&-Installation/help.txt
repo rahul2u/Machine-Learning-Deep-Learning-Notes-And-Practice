@@ -1,0 +1,56 @@
+====================================
+
+install plugins
+microsoft python
+code runner
+theme - winter is comming
+======================
+
+
+open the vscode interpreter 
+ctl +shft + Pyhton
+
+Selcet particuler python environment than type in command promt
+
+Pyhton Command interpreter 
+and select interpreter
+
+========================
+run code runer 
+ctr + alt + n   
+============================
+open and close file explorer
+ctr +b
+
+
+====================================
+
+
+
+
+vscode folder setting change 
+```
+{
+    "editor.fontSize": 18,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.tabSize": 4,
+    "editor.minimap.enabled": true,
+    "python.pythonPath": "/home/rahul/nlp_env/bin/python",
+    "workbench.panel.defaultLocation": "right",
+    "files.autoSave": "onFocusChange",
+    
+    "code-runner.showExecutionMessage": false,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.executorMap": {
+        "python": "python3 -u",  
+    },
+   
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.lintOnSave": true,
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false
+}
+```
