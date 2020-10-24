@@ -25,3 +25,30 @@ path automatially select
 
 =============================
 shift +9 show the defenation of function 
+
+=======================
+
+{
+    "editor.fontSize": 18,
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.tabSize": 4,
+    "editor.minimap.enabled": true,
+    "python.pythonPath": "/home/rahul/nlp_env/bin/python",
+    "workbench.panel.defaultLocation": "right",
+    "files.autoSave": "onFocusChange",
+    
+    "code-runner.showExecutionMessage": false,
+    "code-runner.clearPreviousOutput": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.executorMap": {
+        "python": "python3 -u",  
+    },
+   
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.lintOnSave": true,
+    "python.testing.unittestEnabled": true,
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false
+
+}
