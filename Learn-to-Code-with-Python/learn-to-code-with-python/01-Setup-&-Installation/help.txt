@@ -24,9 +24,19 @@ ctr +b
 
 
 ====================================
+fuzzy search or file search 
+ctrl + P
 
+search the file 
+==================================
 
+showing the help keywords 
+ctr+shft+P
+then search help welcome
 
+saw the welcome page that saw in first time 
+you also see the keywords shortcut link
+==============================
 
 vscode folder setting change 
 ```
